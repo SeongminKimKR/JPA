@@ -7,8 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+@DiscriminatorColumn
 @Data
-public class Item {
+public abstract class Item extends BaseEntity{
 
     @Id
     @GeneratedValue

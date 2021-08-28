@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class OrderItem {
+public class OrderItem extends BaseEntity{
 
     @Id
     @GeneratedValue
