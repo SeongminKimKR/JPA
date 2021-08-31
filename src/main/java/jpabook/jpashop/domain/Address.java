@@ -12,7 +12,7 @@ import java.util.Objects;
 public class Address {
     @Column(length = 10)
     private String city;
-    @Column(length = 20g)
+    @Column(length = 20)
     private String street;
     @Column(length = 5)
     private String zipcode;
